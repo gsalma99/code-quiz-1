@@ -1,0 +1,19 @@
+
+.root{
+    --lightpurple: #957186;
+    --pink: #D9B8C4;
+    --darkpurple: #703D57;
+    --darkbrown: #402A2C;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+body {
+    background-color: var(--pink);
+
+}
+.start-btn{
+
+}
