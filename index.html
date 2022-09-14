@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quick Java Quiz!!</title>
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
-     <section id="intro-quiz">
-            <div id="timer"></div>
-            <div id="View high scores"></div>
-            <h1 id="page-header">Java Quiz Game</h1>
-            <div class="start-btn"><button>Start Java Quiz Game!</button></div>
-        </section>
-        <section id="quiz-page"></section>
-    <script src="script.js"></script>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Quiz Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="start-page">
+      
+      <h2 id="header-text">JavaScript Quick Quiz! </h2>
+      <div id="startquiz"><button>Start Quiz</button></div>
+    </section>
+    <div id="timer"></div>
+    <section id="quiz-page">
+    </section>
+    <section id="high-score-page">
+      <h2>Quiz Done</h2>
+      <p>Record Score</p>
+      <p id="score"></p>
+      <p>Enter Initials Below</p>
+      <input id="initials">
+      <button id="submit-score">Submit</button>
+      <div id="high-scores"></div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
 </html>

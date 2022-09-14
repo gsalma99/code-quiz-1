@@ -1,5 +1,5 @@
 
-.root{
+:root{
     --lightpurple: #957186;
     --pink: #D9B8C4;
     --darkpurple: #703D57;
@@ -8,12 +8,30 @@
 * {
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
-
 }
+
 body {
-    background-color: var(--pink);
-
+   background-color: var(--lightpurple);
 }
-.start-btn{
 
+#startquiz {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+#timer {
+    background-color: #402A2C;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    height: 15vh;
+    font-size: 40px;
+}
+#header-text {
+    text-align: center;
+    align-content: center;
 }
