@@ -2,8 +2,8 @@ var countdownTimer = document.getElementById("timer");
 var quizPage = document.getElementById("quiz-page");
 var startPage = document.getElementById("start-page");
 var highScorePage = document.getElementById("high-score-page");
-var submitButton = document.getElementById("submit-score");
-var submitQuiz = document.getElementById("high-scores");
+var submitButton = document.getElementById("submit-your-score");
+var submitQuiz = document.getElementById("highest-score");
 
 questionIndex = 0;
 var questions = [
@@ -28,7 +28,7 @@ var questions = [
         answer: 3
     },
 ];
-var lastQuestion = questions[2].question;
+var lastQuestion = questions[3].question;
 console.log(lastQuestion)
 
 console.log(questions);
@@ -61,8 +61,8 @@ function startTimer() {
 }
 
 function submitScore() {
-  var initials = document.getElementById("initials").value;
-  var allHighScores = localStorage.getItem("high-scores");
+  var initials = document.getElementById("your-initials").value;
+  var allHighScores = localStorage.getItem("highest-score");
   if (!allHighScores) {
     allHighScores = []
   }
@@ -84,7 +84,7 @@ function submitScore() {
    submitQuiz.appendChild(highscoreDiv)
   });
   localStorage.setItem(
-    "high-scores", JSON.stringify(allHighScores)
+    "highest-score", JSON.stringify(allHighScores)
   )
 
 }
