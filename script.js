@@ -1,5 +1,9 @@
 var quizPage = document.getElementById("quiz-page");
 var countdownTimer = document.getElementById("timer");
+var startGame = document.getElementById("start-game");
+var highScorePage = document.getElementById("high-score-list");
+var submitQuiz = document.getElementById("highest-score");
+
 questionIndex = 0;
 var questions = [
     {
