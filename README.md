@@ -16,3 +16,7 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
 
+https://gsalma99.github.io/code-quiz-1/
+
+https://github.com/gsalma99/code-quiz-1
+
